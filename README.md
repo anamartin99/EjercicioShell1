@@ -38,8 +38,7 @@ function parametros(): esto declara una función llamada parámetros.
 
 fichero="carpeta personal": esto declara una variable local del fichero dentro de la función y le asigna el valor "carpeta personal".
 
-echo "En el fichero 
-# "parámetros": esto utiliza el comando echo para imprimir un mensaje. "$fichero" se expande a "carpeta personal" y "$#" se expande al número de argumentos que se pasan a la función parámetros.
+echo "En el fichero # "parámetros": esto utiliza el comando echo para imprimir un mensaje. "$fichero" se expande a "carpeta personal" y "$#" se expande al número de argumentos que se pasan a la función parámetros.
 
 parámetros 1 2 3 4 5: esto llama a la función parámetros con cinco argumentos (1 2 3 4 5).
 
